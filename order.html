@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DRD Company</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./javascript/main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <h1 class="logo-title">DRD Company</h1>
+      <h3 class="logo-subtitle">ART & DESIGN Studio</h3>
+      <h4 class="logo-subtitle">by Suvorova Victoria</h4>
+    </div>
+
+    <div class="menu-icon">
+      <img src="./img/menu.svg" width="50px" height="50px" alt="">
+    </div>
+
+     <div class="menu-modal">
+        <ul class="modal-nav">
+          <li class="modal-nav-item" id="gallery">Галерея</li>
+          <li class="modal-nav-item" id="news">Новости</li>
+          <li class="modal-nav-item"  id="cooperation">Сотрудничество</li>
+          <li class="modal-nav-item"  id="about">Об авторе</li>
+        </ul>
+         <span class="close-menu">×</span>
+
+         <div class="user-modal">
+           <h3>You are :</h3>
+           
+            <div class="user-modal-img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL02W0PjFhjAvupOlaWgrb2NRDUHwCEeA5CA&usqp=CAU" alt="user-image">
+          
+            </div>
+            <span> Anonymous </span>
+         </div>
+    
+      </div>
+
+    <nav class="navigation">
+      <ul class="navbar">
+        <li class="navbar-item" id="gallery">Галерея</li>
+        <li class="navbar-item" id="news">Новости</li>
+        <li class="navbar-item" id="cooperation">Сотрудничество</li>
+        <li class="navbar-item" id="about">Об авторе</li>
+      </ul>
+    </nav>
+    <div class="user-container">
+      <div class="user-container-title">
+        <h2>Your are: </h2>
+        <span>anonymous o_O ?</span>
+      </div>
+      
+      <div class="user-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL02W0PjFhjAvupOlaWgrb2NRDUHwCEeA5CA&usqp=CAU" alt="user-image">
+        <div class="user-name">
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <main class="main-wrapper">
+
+  <container class="order-wrapper">
+    <form action="#" class="order-form">
+      <span class="close-form">×</span>
+      <h3 class="order-form-title">
+        Для оформления заказа заполните форму
+      </h3>
+      <label for="name" class="orders-label">
+        Ваше имя
+        <input class="order-input-name order-inputs" type="text" placeholder="Татьяна">
+      </label>
+      <label for="family" class="orders-label">
+        Ваша фамилия
+        <input class="order-input-surname order-inputs" type="text" placeholder="Петрова">
+      </label>
+     <label for="email" class="orders-label">
+       Ваша электронная почта
+        <input class="order-input-email order-inputs" type="email" name="" id="" placeholder="tatyanapetrova@mail.ru">
+     </label>
+      <label class="orders-label" for="desc">
+        Примечание
+        <textarea class="order-input-description order-inputs" placeholder="Здесь необходимо описать детали заказа. Например: Хочу заказать портрет по фотографии которую прикладываю в этом письме." name="desc" id="" cols="20" rows="10"></textarea>
+      </label>
+
+      <div class="form-buttons">
+        <button class="order-submit order-button" type="submit">ОТПРАВИТЬ</button>
+        <button class="order-get-details order-button">ПОДРОБНЕЕ</button>
+      </div>
+    </form>
+  </container>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-rigths">
+<span>©Copyright 2021. DRD-ART-COMPANY</span>
+</div>
+<div class="footer-created">
+  <span>Developed by V. Sivchenko</span>
+</div>
+  </footer>
+</body>
+</html>
